@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header{ 
+background-color: white;
+font-family: 'Jost', sans-serif;
+color: black;
+font-size: 20px;
+grid-gap: 10px;
+
+}
+
+.logo{
+float: inline-start;
+font-weight: bold;
+font-size: 50px;
+font-family: 'Dancing Script', cursive;
+padding:  15px 20px 0px 50px;
+color: black;
+
+}
+.logo span{
+color: grey;
+}
+
+
+.barra{
+    float: right;
+    letter-spacing: 5px;
+    padding: 10px 20px 10px 50px;
+}
+.barra ul li{
+    list-style: none;
+    display: inline-block;
+
+}
+.barra ul li a{
+    text-decoration: none;
+    color: black;
+}
+.barra a:hover{
+    color: grey;
+    text-decoration: underline;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 400px 20px 400px;
+}
+
+.carousel{
+    transition: 0.1s ;
+    filter:grayscale(1);
+}
+
+.carousel:hover{
+    filter:grayscale(0);
+}
+
+.galeria{
+    width:100%;
+    height: auto;
+    display: grid;
+    padding: 10px;
+    grid-gap: 10px;
+    grid-template-columns: 4fr;
+    grid-template-rows: repeat(8, 200px)
+}
+.item{
+    background-color: blue;
+    border: 2px solid white;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(1.0);
+}
+
+.item:hover{
+    filter: grayscale(0);
+    scale: 1,2;
+ }
+
+.item1{
+    background-image: url(imagenes/atardecerlagunapadres.webp);
+}
+.item2{
+    background-image: url(imagenes/cabocorrientes.jpg);
+}
+.item3{
+    background-image: url(imagenes/carrousel.jpg);
+}
+.item4{
+    background-image: url(imagenes/ciudad.jpg);
+}
+.item5{
+    background-image: url(imagenes/miramar.jpg);
+}
+.item6{
+    background-image: url(imagenes/monumento.jpg);
+}
+
+
+
+
+footer{
+    background-color:rgba(255, 255, 255, 0.39);
+    color: black;
+    font-size: 30px;
+    font-family: 'Jost', sans-serif ;
+    padding: 20px 20px 30px 60px;
+    text-align: center;
+
+}
+
+footer a{
+    color:black;
+    font-size: 20px;
+    font-family: 'Jost', sans-serif ;
+    text-decoration: none;
+    display: block;
+}
+footer a:hover{
+    color: grey;
+}
+footer p {
+    font-size: 20px;
+}
+
+footer i{
+    font-size: 50px;
+    color: black;
+   
+}
+footer i:hover{
+    color: grey;
+}
+
+
+@media only screen and (min-width: 480px){
+.galeria{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, 300px);
+}
+}
+
+@media only screen and (min-width: 680px){
+    .galeria{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 400px);
+    }
+    }
+
+    @media only screen and (min-width: 980px){
+        .galeria{
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: repeat(4, 600px);
+        }
+        }
