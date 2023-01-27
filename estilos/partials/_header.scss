@@ -1,0 +1,33 @@
+header{
+   
+    .navbar-brand {
+        font-weight: bold;
+        font-size: 50px;
+        font-family: $fontDancing;
+        color: $maincolor2;
+        text-decoration: none;
+        
+   }
+
+   .navbar-brand span{
+    color: $maincolor;
+    }
+    .navbar{
+        letter-spacing: 5px;
+    
+        .navbar ul li{
+            list-style: none;
+            font-family: $fontJost;
+            font-size: 20px;
+        
+        }
+        .navbar ul li a{
+            text-decoration: none;
+            color: $maincolor2;
+        }
+        .navbar a:hover{
+            color: $maincolor;
+            text-decoration: underline;
+        }
+}   
+}

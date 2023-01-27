@@ -1,0 +1,11 @@
+
+.carousel{
+    transition: 0.1s ;
+    filter: grayscale(1);
+    height: 50vh;
+
+    .carousel:hover {
+        filter: grayscale(0);
+    }
+}
+
