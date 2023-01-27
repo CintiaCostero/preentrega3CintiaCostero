@@ -4,26 +4,31 @@ footer {
     color: $maincolor2;
     font-size: 30px;
     font-family: $fontJost;
+    text-align: center;
+    
 
     footer a {
         color:$maincolor2;
         font-size: 20px;
         font-family: $fontJost;
         text-decoration: none;
-        display: block;
+        display: flex;
     }
-
+    
     footer a:hover {
         color: $maincolor
     }
+    
     footer p {
         font-size: 20px;
     }
+    
     footer i {
         font-size: 50px;
         color: $maincolor2;
        
     }
+
     footer i:hover {
         color: $maincolor;
     }

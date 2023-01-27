@@ -36,9 +36,8 @@ header .navbar .navbar a:hover {
 .carousel {
   transition: 0.1s;
   filter: grayscale(1);
-  height: 50vh;
 }
-.carousel .carousel:hover {
+.carousel .carousel :hover {
   filter: grayscale(0);
 }
 
@@ -47,13 +46,14 @@ footer {
   color: black;
   font-size: 30px;
   font-family: "Jost", sans-serif;
+  text-align: center;
 }
 footer footer a {
   color: black;
   font-size: 20px;
   font-family: "Jost", sans-serif;
   text-decoration: none;
-  display: block;
+  display: flex;
 }
 footer footer a:hover {
   color: grey;
@@ -67,4 +67,18 @@ footer footer i {
 }
 footer footer i:hover {
   color: grey;
+}
+
+.galeriafotos {
+  filter: grayscale(0);
+}
+.galeriafotos .galeriafotos :hover {
+  filter: grayscale(1);
+}
+
+.galeriavideos {
+  filter: grayscale(0);
+}
+.galeriavideos .galeriavideos :hover {
+  filter: grayscale(1);
 }/*# sourceMappingURL=styles.css.map */

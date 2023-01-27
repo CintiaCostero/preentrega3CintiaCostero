@@ -1,0 +1,16 @@
+.galeriafotos {
+    filter: grayscale(0);
+
+   .galeriafotos :hover{
+        filter: grayscale(1);
+}
+}
+
+.galeriavideos {
+    filter: grayscale(0);
+
+    .galeriavideos :hover{
+        filter: grayscale(1);
+}
+
+}
