@@ -1,35 +1,32 @@
 
 footer {
-    background-color:rgba(255, 255, 255, 0.39);
+    background-color: $maincolor;
     color: $maincolor2;
     font-size: 30px;
     font-family: $fontJost;
-    text-align: center;
     
 
-    footer a {
+    .linkfooter {
         color:$maincolor2;
-        font-size: 20px;
+        font-size: 30px;
         font-family: $fontJost;
         text-decoration: none;
-        display: flex;
-    }
+
+        & :hover {
+            color: $maincolor3
     
-    footer a:hover {
-        color: $maincolor
+            }
     }
+           
+        i {
+            font-size: 50px;
+            color: $maincolor2;
+             
+            & :hover {
+                color: $maincolor3;
+            }
+           
+        }
     
-    footer p {
-        font-size: 20px;
-    }
-    
-    footer i {
-        font-size: 50px;
-        color: $maincolor2;
        
     }
-
-    footer i:hover {
-        color: $maincolor;
-    }
-}

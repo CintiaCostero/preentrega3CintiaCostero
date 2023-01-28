@@ -1,10 +1,5 @@
 
-.carousel{
+#carousel{
     transition: 0.1s ;
-    filter: grayscale(1);
 
-    .carousel :hover{
-        filter: grayscale(0);
-
-    }
 }
