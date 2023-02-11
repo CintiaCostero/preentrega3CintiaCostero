@@ -1,5 +1,5 @@
 header{
-   
+  
     .navbar-brand {
         font-weight: bold;
         font-size: 50px;
@@ -11,15 +11,18 @@ header{
 
    .navbar-brand span{
     color: $maincolor;
+
     }
-    .navbar{
+
+    .navbar {
         letter-spacing: 5px;
-    
+            
+        
         .navbar ul li{
             list-style: none;
             font-family: $fontJost;
             font-size: 20px;
-        
+                    
         }
         .navbar ul li a{
             text-decoration: none;

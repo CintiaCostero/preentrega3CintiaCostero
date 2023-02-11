@@ -1,0 +1,135 @@
+
+.titulosvideos1 {
+
+    font-size: 30px;
+    animation-name: slidein;
+    animation-duration: 3s;
+
+     @keyframes slidein{
+        from{
+            margin-left: 100%;
+            width: 300%;
+        }
+
+        to{
+          margin-left: 0%;
+          width: 100%;  
+        }
+        
+     }
+
+}
+.titulosvideos2{
+    font-size: 30px;
+    animation-name: slidein;
+    animation-duration: 3s;
+    
+     @keyframes slidein{
+        from{
+            margin-left: 100%;
+            width: 300%;
+        }
+
+        to{
+          margin-left: 0%;
+          width: 100%;  
+        }
+        
+     }
+
+}
+
+
+.titulofotos1{
+    
+    font-size: 30px;
+    animation-name: slidein;
+    animation-duration: 3s;
+
+     @keyframes slidein{
+        from{
+            margin-left: 100%;
+            width: 100%;
+        }
+
+        to{
+          margin-left: 0%;
+          width: 100%;  
+        }
+        
+     }
+
+}
+
+.titulocontacto{
+
+    animation-name: slidein;
+    animation-duration: 3s;
+
+     @keyframes slidein{
+        from{
+            margin-left: 100%;
+            width: 100%;
+        }
+
+        to{
+          margin-left: 0%;
+          width: 100%;  
+        }
+        
+     }
+
+
+
+}
+
+.minombre{
+
+    animation-name: slidein;
+    animation-duration: 3s;
+
+     @keyframes slidein{
+        from{
+            margin-left: 100%;
+            width: 100%;
+        }
+
+        to{
+          margin-left: 0%;
+          width: 100%;  
+        }
+        
+     }
+
+}
+
+.tituloinicio{
+       font-size: 20px;       
+
+}
+
+.subtituloinicio{
+    font-size: 15px;   
+    animation-name: slidein;
+    animation-duration: 3s;
+   
+        @keyframes slidein{
+           from{
+               margin-left: 100%;
+               width: 100%;
+           }
+   
+           to{
+             margin-left: 0%;
+             width: 100%;  
+           }
+           
+        }
+
+      
+}
+
+.textcontacto{
+  font-size: 20px;
+}
+
